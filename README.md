@@ -6,6 +6,10 @@
 
 #### Website Header Videos from [Convertezilla](https://convertezilla.com/)
 
+#### Website images from [PNGTree](https://pngtree.com/)
+
+#### NFL Team Logos from [Loodibee Logos](https://loodibee.com/nfl/)
+
 #### 2021 - 2022 Season Fantasy Football data from [FantasyData](https://fantasydata.com/)
 
 
