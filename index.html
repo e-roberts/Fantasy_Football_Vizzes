@@ -108,11 +108,8 @@
         <!-- Video Background -->
         <video autoplay loop muted id="video-background" poster="images/QB_background.jpg" playsinline>
             <source src="images/header-background-video.mp4" type="video/mp4" />
-        </video>
-        <!-- end of video background -->
-
+        </video> <!-- end of video background -->
     </header> <!-- end of header -->
-    <!-- end of header -->
 
     <!-- Introduction -->
     <div id="introduction" class="cards-1">
@@ -198,6 +195,7 @@
                         </div> <!-- end of counter-cell -->
                     </div> <!-- end of counter-container -->
                     <!-- end of counter -->
+                    
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -260,11 +258,11 @@
                             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
                             vizElement.parentNode.insertBefore(scriptElement, vizElement);                
                         </script>
-                    </div>
-                </div>    
-            </div>
-        </div>      
-    </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of class -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container  -->     
+    </div> 
     <!-- end of NFL Team Season Record-->
 
     <!-- NFL Team Success -->
@@ -293,10 +291,10 @@
                             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
                             vizElement.parentNode.insertBefore(scriptElement, vizElement);                
                         </script>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of class -->
+            </div><!-- end of row -->
+        </div> <!-- end of container  -->
     </div>
     <!-- end of Team Success -->
 
@@ -326,10 +324,10 @@
                                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
                                 vizElement.parentNode.insertBefore(scriptElement, vizElement);                
                         </script>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of class -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
     </div>
     <!-- end of Net Points -->
 
@@ -340,27 +338,28 @@
                 <div class="col-lg-12">
                     <h2 class="h2-heading">Analysis of NFL Players</h2>
                 <br>
-                <div class='tableauPlaceholder' id='viz1668126719000' style='position: relative'>
-                    <noscript>
-                        <a href='#'><img alt='NFL Players Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFLPlayerAnalysisfor21-22Season&#47;NFLPlayersDashboard&#47;1_rss.png' style='border: none' /></a>
-                    </noscript>
-                    <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> 
-                        <param name='site_root' value='' /><param name='name' value='NFLPlayerAnalysisfor21-22Season&#47;NFLPlayersDashboard' />
-                        <param name='tabs' value='no' /><param name='toolbar' value='yes' />
-                        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFLPlayerAnalysisfor21-22Season&#47;NFLPlayersDashboard&#47;1.png' /> <param name='animate_transition' value='yes' />
-                        <param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
-                        <param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' />
-                    </object></div>                
-                    <script type='text/javascript'>                    
-                        var divElement = document.getElementById('viz1668126719000');                    
-                        var vizElement = divElement.getElementsByTagName('object')[0];                    
-                            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
-                            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
-                            else { vizElement.style.width='100%';vizElement.style.height='1827px';}                     
-                        var scriptElement = document.createElement('script');                    
-                            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-                            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-                    </script>
+                    <div class='tableauPlaceholder' id='viz1668126719000' style='position: relative'>
+                        <noscript>
+                            <a href='#'><img alt='NFL Players Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFLPlayerAnalysisfor21-22Season&#47;NFLPlayersDashboard&#47;1_rss.png' style='border: none' /></a>
+                        </noscript>
+                        <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> 
+                            <param name='site_root' value='' /><param name='name' value='NFLPlayerAnalysisfor21-22Season&#47;NFLPlayersDashboard' />
+                            <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFLPlayerAnalysisfor21-22Season&#47;NFLPlayersDashboard&#47;1.png' /> <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' />
+                        </object></div>                
+                        <script type='text/javascript'>                    
+                            var divElement = document.getElementById('viz1668126719000');                    
+                            var vizElement = divElement.getElementsByTagName('object')[0];                    
+                                if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
+                                else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
+                                else { vizElement.style.width='100%';vizElement.style.height='1827px';}                     
+                            var scriptElement = document.createElement('script');                    
+                                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                        </script>
+                    </div> 
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
 		</div> <!-- end of container -->
